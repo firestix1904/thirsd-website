@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    /* gap: 350px; */
+    background-color: #0C3C60;
+    padding: 1.5%;
+    z-index: 1;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    font-size: 20px;
+    margin: 0% 0% 0% 20%;
+    font-weight: 300;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar p{
+    color: white;
+}
+.nav-right-side{
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 0px 40px;
+}
+.nav-heading{
+    color: white;
+    font-size: 25px;
+    margin: 0% 0% 0% 4%;
+    font-weight: 300;
+}
+.nav-right-side p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.hero-section-parent{
+    /* position: relative; */
+}
+.hero-section-child{
+    position: absolute;
+    height: 300px;
+    top: 450px;
+    left: 25%;
+    background-color: white;
+    width: 835px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.hero-section-background{
+    background-size: cover;
+    width: 1520px;
+    height: 750px;
+}
+.hero-section-child p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+.hero-section-child h2{
+    font-size: 65px;
+    font-weight: 400;
+    color: #072136;
+}
+.hero-section-child input{
+    background-color: white;
+    border: 1px solid #072136;
+    color: #072136;
+    padding: 17px 100px 17px 100px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: background .5s, color .5s;
+}
+.section-1-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.section-1-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: antiquewhite;
+    border: 1px solid black; */
+    align-items: center;
+    gap: 60px;
+    margin: 0px 0px;
+    height: 608px;
+
+}
+.section-1-child-heading{
+    font-weight: 300;
+    font-size: 45px;
+    color: #072136;
+}
+.section-1-child-description{
+    font-size: 18px;
+    line-height: 1.5;
+}
+.section-1-child-button{
+    background-color: white;
+    border: 1px solid #072136;
+    color: #072136;
+    padding: 18px 65px 18px 65px  ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background .5s, color .5s;
+}
+.section-2-background{
+    /* position: relative; */
+    position: sticky;
+}
+.section-2-parent-child{
+    position: absolute;
+    background-color: #DAE9F2;
+    opacity: .9;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.section-2-parent img{
+    height: 700px;
+    width: 100%;
+}
+.section-2-parent-child-heading{
+    font-size: 40px;
+    color: #072136;
+}
+.section-2-parent-child-decription-1{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 17px;
+}
+.section-2-parent-child-decription-2{
+    text-align: center;
+    margin-top: -30px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+.section-2-parent-child-button{
+    background-color: #DAE9F2;
+    border: 1px solid #072136;
+    color: #072136;
+    padding: 14px 55px 14px 55px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background .5s, color .5s;
+}
+.section-3-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    height: 500px;  
+}
+.section-3-logos{
+    margin-top: 50px;
+    display: flex;
+    gap: 200px;
+}
+.section-3-parent p{
+    font-size: 40px;
+    color: #072136;
+
+}
+.section-3-logos img{
+    height: 70px;
+}
+.section-4-parent{
+
+    height: 550px;
+}
+.contact_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    gap: 60px;
+    background-color: #0C3C60;
+    height: 100%;
+}
+.form-sec-1{
+    display: flex;
+    gap: 40px;
+    
+}
+.form-sec-2{
+    display: flex;
+    gap: 40px;
+    margin-top: 45px;
+}
+.form-sec-3{
+    margin-top: 45px;
+}
+.contact_inputs{
+    width: 420px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+.messege{
+    width: 883px;
+}
+label{
+    font-size: 20px;
+    color: white;
+}
+.submit_btn{
+    width: 360px;
+    padding: 7px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: #0C3C60;
+    margin-left: 59.5%;
+    margin-top: 25px;
+    transition: background .5s, color .5s;
+    cursor: pointer;
+}
+.contact_section h2{
+    font-size: 35px;
+    color: white;
+    margin-top: 45px;
+    font-weight: 500;
+}
+footer{
+    background-color: #072136;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 50px 90px 80px 90px;
+}
+ul{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer-sec-1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+.footer-sec-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+footer h2{
+    font-weight: 500;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-sec-3{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-sec-3 p{
+    margin-top: 40px;
+}
+.hero-sec-btn:hover{
+    background-color: #0C3C60;
+    color: white;
+    
+}
+/* .section-1-child-button:hover{
+    background-color: #0C3C60;
+    color: white;
+} */
+.submit_btn:hover{
+    background-color: #0C3C60;
+    color: white;
+    border: 1px solid white;
+}
+.section-1-child-button:hover{
+    background-color: #0C3C60;
+    color: white;
+}
+.section-2-parent-child-button:hover{
+    background-color: #0C3C60;
+    color: white;
+}

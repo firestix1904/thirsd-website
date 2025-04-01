@@ -63,6 +63,7 @@
     background-size: cover;
     width: 1520px;
     height: 750px;
+    
 }
 .hero-section-child p{
     font-size: 30px;
@@ -316,4 +317,8 @@ footer h2{
 .section-2-parent-child-button:hover{
     background-color: #0C3C60;
     color: white;
+}
+.login-sec{
+    display: flex;
+    gap: 10px;
 }
